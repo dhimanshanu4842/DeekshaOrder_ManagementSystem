@@ -1,0 +1,473 @@
+2024-09-18 15:56:14.023 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2024-09-18 15:56:14.302 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2024-09-18 15:56:14.305 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-09-18 15:56:14.308 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-09-18 15:56:14.311 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Orders/Create.cshtml'.
+2024-09-18 15:56:14.314 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Orders/Index.cshtml'.
+2024-09-18 15:56:14.317 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Product/Product.cshtml'.
+2024-09-18 15:56:14.319 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-09-18 15:56:14.322 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-09-18 15:56:14.325 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-09-18 15:56:14.328 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-09-18 15:56:14.404 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-09-18 15:56:15.540 +05:30 [DBG] Hosting starting
+2024-09-18 15:56:16.462 +05:30 [INF] User profile is available. Using 'C:\Users\intersoft-admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 15:56:16.516 +05:30 [DBG] Reading data from file 'C:\Users\intersoft-admin\AppData\Local\ASP.NET\DataProtection-Keys\key-c63006fd-1e9f-44f2-bc49-67236b51c2fa.xml'.
+2024-09-18 15:56:17.127 +05:30 [DBG] Found key {c63006fd-1e9f-44f2-bc49-67236b51c2fa}.
+2024-09-18 15:56:17.296 +05:30 [DBG] Considering key {c63006fd-1e9f-44f2-bc49-67236b51c2fa} with expiration date 2024-12-16 12:32:21Z as default key.
+2024-09-18 15:56:17.332 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 15:56:17.341 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-09-18 15:56:17.348 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-09-18 15:56:17.363 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-09-18 15:56:17.375 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-09-18 15:56:17.386 +05:30 [DBG] Using key {c63006fd-1e9f-44f2-bc49-67236b51c2fa} as the default key.
+2024-09-18 15:56:17.420 +05:30 [DBG] Key ring with default key {c63006fd-1e9f-44f2-bc49-67236b51c2fa} was loaded during application startup.
+2024-09-18 15:56:20.228 +05:30 [INF] Now listening on: https://localhost:7068
+2024-09-18 15:56:20.231 +05:30 [INF] Now listening on: http://localhost:5010
+2024-09-18 15:56:20.235 +05:30 [DBG] Loaded hosting startup assembly OrderManagementSystem
+2024-09-18 15:56:20.239 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-18 15:56:20.242 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-18 15:56:20.245 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 15:56:20.248 +05:30 [INF] Hosting environment: Development
+2024-09-18 15:56:20.251 +05:30 [INF] Content root path: C:\Users\intersoft-admin\Documents\New folder\OrderManagementSystem\OrderManagementSystem
+2024-09-18 15:56:20.257 +05:30 [DBG] Hosting started
+2024-09-18 15:56:20.354 +05:30 [DBG] Connection id "0HN6NPHB78TK8" received FIN.
+2024-09-18 15:56:20.354 +05:30 [DBG] Connection id "0HN6NPHB78TK9" received FIN.
+2024-09-18 15:56:20.388 +05:30 [DBG] Connection id "0HN6NPHB78TK9" accepted.
+2024-09-18 15:56:20.388 +05:30 [DBG] Connection id "0HN6NPHB78TK8" accepted.
+2024-09-18 15:56:20.393 +05:30 [DBG] Connection id "0HN6NPHB78TK9" started.
+2024-09-18 15:56:20.396 +05:30 [DBG] Connection id "0HN6NPHB78TK8" started.
+2024-09-18 15:56:20.742 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-18 15:56:20.742 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-18 15:56:21.398 +05:30 [DBG] Connection id "0HN6NPHB78TK8" stopped.
+2024-09-18 15:56:21.398 +05:30 [DBG] Connection id "0HN6NPHB78TK9" stopped.
+2024-09-18 15:56:21.409 +05:30 [DBG] Connection id "0HN6NPHB78TK8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-18 15:56:21.409 +05:30 [DBG] Connection id "0HN6NPHB78TK9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-18 15:56:22.366 +05:30 [DBG] Connection id "0HN6NPHB78TKA" accepted.
+2024-09-18 15:56:22.369 +05:30 [DBG] Connection id "0HN6NPHB78TKA" started.
+2024-09-18 15:56:24.517 +05:30 [DBG] Connection id "0HN6NPHB78TKB" accepted.
+2024-09-18 15:56:24.521 +05:30 [DBG] Connection id "0HN6NPHB78TKB" started.
+2024-09-18 15:56:24.674 +05:30 [DBG] Connection id "0HN6NPHB78TKB" received FIN.
+2024-09-18 15:56:25.283 +05:30 [DBG] Connection 0HN6NPHB78TKB established using the following protocol: "Tls12"
+2024-09-18 15:56:25.283 +05:30 [DBG] Connection 0HN6NPHB78TKA established using the following protocol: "Tls12"
+2024-09-18 15:56:25.987 +05:30 [DBG] Connection id "0HN6NPHB78TKB" is closed. The last processed stream ID was 0.
+2024-09-18 15:56:26.001 +05:30 [DBG] Connection id "0HN6NPHB78TKB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-18 15:56:26.015 +05:30 [DBG] The connection queue processing loop for 0HN6NPHB78TKB completed.
+2024-09-18 15:56:26.024 +05:30 [DBG] Connection id "0HN6NPHB78TKB" stopped.
+2024-09-18 15:56:26.867 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/ - null null
+2024-09-18 15:56:26.869 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/Orders/Index - null null
+2024-09-18 15:56:28.141 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-18 15:56:28.141 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-18 15:56:28.197 +05:30 [DBG] The request path / does not match a supported file type
+2024-09-18 15:56:28.197 +05:30 [DBG] The request path /Orders/Index does not match a supported file type
+2024-09-18 15:56:28.390 +05:30 [DBG] 1 candidate(s) found for the request path '/'
+2024-09-18 15:56:28.390 +05:30 [DBG] 1 candidate(s) found for the request path '/Orders/Index'
+2024-09-18 15:56:28.454 +05:30 [DBG] Endpoint 'OrderManagementSystem.Controllers.AccountController.Login (OrderManagementSystem)' with route pattern '{controller=Account}/{action=Login}/{id?}' is valid for the request path '/'
+2024-09-18 15:56:28.454 +05:30 [DBG] Endpoint 'OrderManagementSystem.Controllers.OrdersController.Index (OrderManagementSystem)' with route pattern '{controller=Account}/{action=Login}/{id?}' is valid for the request path '/Orders/Index'
+2024-09-18 15:56:28.461 +05:30 [DBG] Request matched endpoint 'OrderManagementSystem.Controllers.AccountController.Login (OrderManagementSystem)'
+2024-09-18 15:56:28.465 +05:30 [DBG] Request matched endpoint 'OrderManagementSystem.Controllers.OrdersController.Index (OrderManagementSystem)'
+2024-09-18 15:56:30.511 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-18 15:56:30.511 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-09-18 15:56:33.932 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-09-18 15:56:33.938 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-09-18 15:56:34.647 +05:30 [DBG] The property 'Order.CustomerId' was created in shadow state because there are no eligible CLR members with a matching name.
+2024-09-18 15:56:35.518 +05:30 [DBG] Entity Framework Core 8.0.8 initialized 'OrderDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-09-18 15:56:35.518 +05:30 [DBG] Entity Framework Core 8.0.8 initialized 'OrderDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-09-18 15:56:36.672 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUser>()
+    .FirstOrDefault(e => EF.Property<string>(e, "Id") == __p_0)'
+2024-09-18 15:56:37.876 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<IdentityUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<IdentityUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: IdentityUser.Id (string) Required PK AfterSave:Throw, 0], [Property: IdentityUser.AccessFailedCount (int) Required, 1], [Property: IdentityUser.ConcurrencyStamp (string) Concurrency, 2], [Property: IdentityUser.Email (string) MaxLength(256), 3], [Property: IdentityUser.EmailConfirmed (bool) Required, 4], [Property: IdentityUser.LockoutEnabled (bool) Required, 5], [Property: IdentityUser.LockoutEnd (DateTimeOffset?), 6], [Property: IdentityUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: IdentityUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: IdentityUser.PasswordHash (string), 9], [Property: IdentityUser.PhoneNumber (string), 10], [Property: IdentityUser.PhoneNumberConfirmed (bool) Required, 11], [Property: IdentityUser.SecurityStamp (string), 12], [Property: IdentityUser.TwoFactorEnabled (bool) Required, 13], [Property: IdentityUser.UserName (string) MaxLength(256), 14] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, IdentityUser>, 
+        OrderDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-09-18 15:56:37.981 +05:30 [DBG] Creating DbConnection.
+2024-09-18 15:56:37.981 +05:30 [DBG] Creating DbConnection.
+2024-09-18 15:56:38.113 +05:30 [DBG] Created DbConnection. (134ms).
+2024-09-18 15:56:38.113 +05:30 [DBG] Created DbConnection. (134ms).
+2024-09-18 15:56:38.126 +05:30 [DBG] Opening connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:38.126 +05:30 [DBG] Opening connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:40.644 +05:30 [DBG] Opened connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:40.658 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-18 15:56:40.686 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (26ms).
+2024-09-18 15:56:40.731 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (74ms).
+2024-09-18 15:56:40.739 +05:30 [DBG] Opened connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:40.751 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-18 15:56:40.754 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-09-18 15:56:40.757 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-09-18 15:56:40.767 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-18 15:56:40.767 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-18 15:56:41.323 +05:30 [INF] Executed DbCommand (542ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-18 15:56:41.323 +05:30 [INF] Executed DbCommand (567ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-09-18 15:56:41.488 +05:30 [DBG] Context 'OrderDbContext' started tracking 'IdentityUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-18 15:56:41.488 +05:30 [DBG] Context 'OrderDbContext' started tracking 'IdentityUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-09-18 15:56:41.616 +05:30 [DBG] Closing data reader to 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:41.616 +05:30 [DBG] Closing data reader to 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:41.634 +05:30 [DBG] A data reader for 'OderManagement_Db' on server 'localhost\SQLEXPRESS' is being disposed after spending 280ms reading results.
+2024-09-18 15:56:41.634 +05:30 [DBG] A data reader for 'OderManagement_Db' on server 'localhost\SQLEXPRESS' is being disposed after spending 290ms reading results.
+2024-09-18 15:56:41.644 +05:30 [DBG] Closing connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:41.644 +05:30 [DBG] Closing connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:41.665 +05:30 [DBG] Closed connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS' (19ms).
+2024-09-18 15:56:41.666 +05:30 [DBG] Closed connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS' (20ms).
+2024-09-18 15:56:41.752 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUserClaim<string>>()
+    .Where(uc => uc.UserId.Equals(__user_Id_0))
+    .Select(c => c.ToClaim())'
+2024-09-18 15:56:41.865 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Claim>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: IdentityUserClaim<string>.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: IdentityUserClaim<string>.ClaimType (string), 1], [Property: IdentityUserClaim<string>.ClaimValue (string), 2], [Property: IdentityUserClaim<string>.UserId (string) Required FK Index, 3] }
+        SELECT a.Id, a.ClaimType, a.ClaimValue, a.UserId
+        FROM AspNetUserClaims AS a
+        WHERE a.UserId == @__user_Id_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Claim>, 
+    OrderDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-09-18 15:56:41.875 +05:30 [DBG] Opening connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:41.875 +05:30 [DBG] Opening connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:41.882 +05:30 [DBG] Opened connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:41.885 +05:30 [DBG] Opened connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:41.889 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-18 15:56:41.893 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-18 15:56:41.897 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (7ms).
+2024-09-18 15:56:41.900 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2024-09-18 15:56:41.904 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2024-09-18 15:56:41.908 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2024-09-18 15:56:41.913 +05:30 [DBG] Executing DbCommand [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-09-18 15:56:41.916 +05:30 [DBG] Executing DbCommand [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-09-18 15:56:41.982 +05:30 [INF] Executed DbCommand (69ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-09-18 15:56:41.982 +05:30 [INF] Executed DbCommand (66ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2024-09-18 15:56:41.994 +05:30 [DBG] Closing data reader to 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.002 +05:30 [DBG] Closing data reader to 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.006 +05:30 [DBG] A data reader for 'OderManagement_Db' on server 'localhost\SQLEXPRESS' is being disposed after spending 14ms reading results.
+2024-09-18 15:56:42.010 +05:30 [DBG] A data reader for 'OderManagement_Db' on server 'localhost\SQLEXPRESS' is being disposed after spending 8ms reading results.
+2024-09-18 15:56:42.018 +05:30 [DBG] Closing connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.024 +05:30 [DBG] Closing connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.027 +05:30 [DBG] Closed connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS' (8ms).
+2024-09-18 15:56:42.032 +05:30 [DBG] Closed connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS' (7ms).
+2024-09-18 15:56:42.062 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUserRole<string>>()
+    .Join(
+        inner: DbSet<IdentityRole>(), 
+        outerKeySelector: userRole => userRole.RoleId, 
+        innerKeySelector: role => role.Id, 
+        resultSelector: (userRole, role) => new { 
+            userRole = userRole, 
+            role = role
+         })
+    .Where(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.userRole.UserId.Equals(__userId_0))
+    .Select(<>h__TransparentIdentifier0 => <>h__TransparentIdentifier0.role.Name)'
+2024-09-18 15:56:42.113 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<string>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT a0.Name
+        FROM AspNetUserRoles AS a
+        INNER JOIN AspNetRoles AS a0 ON a.RoleId == a0.Id
+        WHERE a.UserId == @__userId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, string>, 
+    OrderDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-09-18 15:56:42.125 +05:30 [DBG] Opening connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.125 +05:30 [DBG] Opening connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.130 +05:30 [DBG] Opened connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.134 +05:30 [DBG] Opened connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.142 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-18 15:56:42.138 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-18 15:56:42.146 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-09-18 15:56:42.150 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (11ms).
+2024-09-18 15:56:42.154 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (11ms).
+2024-09-18 15:56:42.158 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (19ms).
+2024-09-18 15:56:42.162 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-18 15:56:42.166 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-18 15:56:42.193 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-18 15:56:42.193 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-18 15:56:42.208 +05:30 [DBG] Closing data reader to 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.216 +05:30 [DBG] Closing data reader to 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.219 +05:30 [DBG] A data reader for 'OderManagement_Db' on server 'localhost\SQLEXPRESS' is being disposed after spending 14ms reading results.
+2024-09-18 15:56:42.223 +05:30 [DBG] A data reader for 'OderManagement_Db' on server 'localhost\SQLEXPRESS' is being disposed after spending 8ms reading results.
+2024-09-18 15:56:42.231 +05:30 [DBG] Closing connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.240 +05:30 [DBG] Closed connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS' (8ms).
+2024-09-18 15:56:42.236 +05:30 [DBG] Closing connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.252 +05:30 [DBG] Closed connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS' (15ms).
+2024-09-18 15:56:42.260 +05:30 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2024-09-18 15:56:42.260 +05:30 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2024-09-18 15:56:42.301 +05:30 [INF] Executing endpoint 'OrderManagementSystem.Controllers.AccountController.Login (OrderManagementSystem)'
+2024-09-18 15:56:42.311 +05:30 [DBG] Authorization was successful.
+2024-09-18 15:56:42.320 +05:30 [INF] Executing endpoint 'OrderManagementSystem.Controllers.OrdersController.Index (OrderManagementSystem)'
+2024-09-18 15:56:42.376 +05:30 [INF] Route matched with {action = "Index", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller OrderManagementSystem.Controllers.OrdersController (OrderManagementSystem).
+2024-09-18 15:56:42.376 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller OrderManagementSystem.Controllers.AccountController (OrderManagementSystem).
+2024-09-18 15:56:42.387 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-18 15:56:42.390 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-09-18 15:56:42.394 +05:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-18 15:56:42.399 +05:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-18 15:56:42.404 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-18 15:56:42.408 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-09-18 15:56:42.414 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-18 15:56:42.420 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-09-18 15:56:42.424 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-18 15:56:42.429 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-09-18 15:56:42.449 +05:30 [DBG] Executing controller factory for controller OrderManagementSystem.Controllers.OrdersController (OrderManagementSystem)
+2024-09-18 15:56:42.449 +05:30 [DBG] Executing controller factory for controller OrderManagementSystem.Controllers.AccountController (OrderManagementSystem)
+2024-09-18 15:56:42.456 +05:30 [DBG] Executed controller factory for controller OrderManagementSystem.Controllers.OrdersController (OrderManagementSystem)
+2024-09-18 15:56:42.458 +05:30 [DBG] Executed controller factory for controller OrderManagementSystem.Controllers.AccountController (OrderManagementSystem)
+2024-09-18 15:56:42.517 +05:30 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2024-09-18 15:56:42.522 +05:30 [DBG] =======Fetching orders for the current user.=====
+2024-09-18 15:56:42.527 +05:30 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name '' in request data ...
+2024-09-18 15:56:42.529 +05:30 [DBG] User ID: 55f6eb5f-eeb5-4c39-8211-0878c5075fe2.
+2024-09-18 15:56:42.534 +05:30 [DBG] Could not find a value in the request with name '' for binding parameter 'returnUrl' of type 'System.String'.
+2024-09-18 15:56:42.541 +05:30 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-09-18 15:56:42.544 +05:30 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2024-09-18 15:56:42.549 +05:30 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2024-09-18 15:56:42.552 +05:30 [DBG] Compiling query expression: 
+'DbSet<Order>()
+    .Include(o => o.Product)
+    .Where(o => o.UserId == __userId_0)'
+2024-09-18 15:56:42.556 +05:30 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2024-09-18 15:56:42.566 +05:30 [DBG] Login method started.
+2024-09-18 15:56:42.568 +05:30 [DBG] No return URL provided.
+2024-09-18 15:56:42.571 +05:30 [DBG] Returning Login view.
+2024-09-18 15:56:42.583 +05:30 [DBG] Including navigation: 'Order.Product'.
+2024-09-18 15:56:42.602 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Order>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Order.OrderId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Order.CustomerId (no field, int?) Shadow FK Index, 1], [Property: Order.ProductId (int) Required FK Index, 2], [Property: Order.UserId (string) FK Index, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: Product.ProductId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: Product.ProductName (string), 5] }
+        SELECT o.OrderId, o.CustomerId, o.ProductId, o.UserId, p.ProductId, p.ProductName
+        FROM Orders AS o
+        INNER JOIN Products AS p ON o.ProductId == p.ProductId
+        WHERE o.UserId == @__userId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Order>, 
+    OrderDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-09-18 15:56:42.613 +05:30 [DBG] View lookup cache miss for view 'Login' in controller 'Account'.
+2024-09-18 15:56:42.618 +05:30 [DBG] Opening connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.621 +05:30 [DBG] Opened connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.625 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-09-18 15:56:42.628 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-09-18 15:56:42.632 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-09-18 15:56:42.636 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[CustomerId], [o].[ProductId], [o].[UserId], [p].[ProductId], [p].[ProductName]
+FROM [Orders] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[ProductId]
+WHERE [o].[UserId] = @__userId_0
+2024-09-18 15:56:42.653 +05:30 [INF] Executing ViewResult, running view Login.
+2024-09-18 15:56:42.668 +05:30 [DBG] The view path '/Views/Account/Login.cshtml' was found in 60.0326ms.
+2024-09-18 15:56:42.675 +05:30 [INF] Executed DbCommand (39ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[CustomerId], [o].[ProductId], [o].[UserId], [p].[ProductId], [p].[ProductName]
+FROM [Orders] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[ProductId]
+WHERE [o].[UserId] = @__userId_0
+2024-09-18 15:56:42.685 +05:30 [DBG] Closing data reader to 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.689 +05:30 [DBG] A data reader for 'OderManagement_Db' on server 'localhost\SQLEXPRESS' is being disposed after spending 4ms reading results.
+2024-09-18 15:56:42.702 +05:30 [DBG] Closing connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:42.706 +05:30 [DBG] Closed connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS' (3ms).
+2024-09-18 15:56:42.716 +05:30 [DBG] Successfully retrieved 0 orders for the user.
+2024-09-18 15:56:42.729 +05:30 [DBG] View lookup cache miss for view 'Index' in controller 'Orders'.
+2024-09-18 15:56:42.734 +05:30 [INF] Executing ViewResult, running view Index.
+2024-09-18 15:56:42.737 +05:30 [DBG] The view path '/Views/Orders/Index.cshtml' was found in 7.697ms.
+2024-09-18 15:56:42.779 +05:30 [DBG] The temp data cookie .AspNetCore.Mvc.CookieTempDataProvider was not found.
+2024-09-18 15:56:42.869 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (action=[Login],controller=[Account])
+2024-09-18 15:56:42.869 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (action=[Create],controller=[Orders])
+2024-09-18 15:56:42.881 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in  and 
+2024-09-18 15:56:42.888 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /
+2024-09-18 15:56:42.891 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Orders/Create and 
+2024-09-18 15:56:42.899 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Orders/Create
+2024-09-18 15:56:42.907 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-09-18 15:56:42.916 +05:30 [DBG] View lookup cache miss for view '_Layout' in controller 'Orders'.
+2024-09-18 15:56:43.016 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (action=[Logout],controller=[Account])
+2024-09-18 15:56:43.023 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/Logout and 
+2024-09-18 15:56:43.029 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/Logout
+2024-09-18 15:56:43.040 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-09-18 15:56:43.043 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (action=[Register],controller=[Account])
+2024-09-18 15:56:43.044 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-09-18 15:56:43.050 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/Register and 
+2024-09-18 15:56:43.055 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Index and 
+2024-09-18 15:56:43.060 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/Register
+2024-09-18 15:56:43.065 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Index
+2024-09-18 15:56:43.072 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (action=[ForgotPassword],controller=[Account])
+2024-09-18 15:56:43.077 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-09-18 15:56:43.080 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/ForgotPassword and 
+2024-09-18 15:56:43.085 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Index and 
+2024-09-18 15:56:43.090 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/ForgotPassword
+2024-09-18 15:56:43.094 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Index
+2024-09-18 15:56:43.102 +05:30 [DBG] View lookup cache miss for view '_Layout' in controller 'Account'.
+2024-09-18 15:56:43.105 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-09-18 15:56:43.109 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (action=[Logout],controller=[Account])
+2024-09-18 15:56:43.111 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2024-09-18 15:56:43.117 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/Logout and 
+2024-09-18 15:56:43.121 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Privacy
+2024-09-18 15:56:43.125 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/Logout
+2024-09-18 15:56:43.132 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (action=[Logout],controller=[Account])
+2024-09-18 15:56:43.134 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-09-18 15:56:43.137 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/Logout and 
+2024-09-18 15:56:43.144 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/Logout
+2024-09-18 15:56:43.143 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-09-18 15:56:43.149 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-09-18 15:56:43.154 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Index and 
+2024-09-18 15:56:43.158 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-09-18 15:56:43.163 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Index
+2024-09-18 15:56:43.168 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2024-09-18 15:56:43.179 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Privacy
+2024-09-18 15:56:43.174 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-09-18 15:56:43.189 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Index and 
+2024-09-18 15:56:43.197 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Index
+2024-09-18 15:56:43.202 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-09-18 15:56:43.207 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2024-09-18 15:56:43.213 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-18 15:56:43.213 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Privacy
+2024-09-18 15:56:43.222 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (action=[Logout],controller=[Account])
+2024-09-18 15:56:43.230 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Account/Logout and 
+2024-09-18 15:56:43.235 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Account/Logout
+2024-09-18 15:56:43.240 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-09-18 15:56:43.243 +05:30 [DBG] Found the endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-09-18 15:56:43.247 +05:30 [DBG] Successfully processed template {controller=Account}/{action=Login}/{id?} for Route: {controller=Account}/{action=Login}/{id?} resulting in /Home/Privacy and 
+2024-09-18 15:56:43.252 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Account}/{action=Login}/{id?}"] with result /Home/Privacy
+2024-09-18 15:56:43.257 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-18 15:56:43.260 +05:30 [DBG] View lookup cache miss for view '_ValidationScriptsPartial' in controller 'Account'.
+2024-09-18 15:56:43.283 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-09-18 15:56:43.286 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-09-18 15:56:43.325 +05:30 [INF] Executed ViewResult - view Login executed in 729.8947ms.
+2024-09-18 15:56:43.333 +05:30 [INF] Executed ViewResult - view Index executed in 604.2578ms.
+2024-09-18 15:56:43.344 +05:30 [INF] Executed action OrderManagementSystem.Controllers.AccountController.Login (OrderManagementSystem) in 904.1725ms
+2024-09-18 15:56:43.344 +05:30 [INF] Executed action OrderManagementSystem.Controllers.OrdersController.Index (OrderManagementSystem) in 908.8165ms
+2024-09-18 15:56:43.351 +05:30 [INF] Executed endpoint 'OrderManagementSystem.Controllers.AccountController.Login (OrderManagementSystem)'
+2024-09-18 15:56:43.355 +05:30 [INF] Executed endpoint 'OrderManagementSystem.Controllers.OrdersController.Index (OrderManagementSystem)'
+2024-09-18 15:56:43.360 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-18 15:56:43.361 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-09-18 15:56:43.366 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-18 15:56:43.367 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-09-18 15:56:43.386 +05:30 [DBG] 'OrderDbContext' disposed.
+2024-09-18 15:56:43.386 +05:30 [DBG] 'OrderDbContext' disposed.
+2024-09-18 15:56:43.401 +05:30 [DBG] Disposing connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:43.401 +05:30 [DBG] Disposing connection to database 'OderManagement_Db' on server 'localhost\SQLEXPRESS'.
+2024-09-18 15:56:43.409 +05:30 [DBG] Disposed connection to database '' on server '' (7ms).
+2024-09-18 15:56:43.410 +05:30 [DBG] Disposed connection to database '' on server '' (10ms).
+2024-09-18 15:56:43.417 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/Orders/Index - 200 null text/html; charset=utf-8 16652.3692ms
+2024-09-18 15:56:43.419 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/ - 200 null text/html; charset=utf-8 16655.6987ms
+2024-09-18 15:56:43.420 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-09-18 15:56:43.435 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-09-18 15:56:43.467 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/OrderManagementSystem.styles.css?v=UEzvQE1nSWkWv1FyaZ1ULjWECAiI-RWaTrCp5F50X5U - null null
+2024-09-18 15:56:43.476 +05:30 [INF] The file /css/site.css was not modified
+2024-09-18 15:56:43.476 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-09-18 15:56:43.477 +05:30 [INF] The file /OrderManagementSystem.styles.css was not modified
+2024-09-18 15:56:43.480 +05:30 [DBG] Handled. Status code: 304 File: /css/site.css
+2024-09-18 15:56:43.482 +05:30 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css
+2024-09-18 15:56:43.486 +05:30 [DBG] Handled. Status code: 304 File: /OrderManagementSystem.styles.css
+2024-09-18 15:56:43.491 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 56.2882ms
+2024-09-18 15:56:43.493 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 73.1978ms
+2024-09-18 15:56:43.496 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/OrderManagementSystem.styles.css?v=UEzvQE1nSWkWv1FyaZ1ULjWECAiI-RWaTrCp5F50X5U - 304 null text/css 30.0521ms
+2024-09-18 15:56:43.555 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/lib/jquery/dist/jquery.min.js - null null
+2024-09-18 15:56:43.564 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-09-18 15:56:43.566 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-09-18 15:56:43.570 +05:30 [DBG] Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js
+2024-09-18 15:56:43.577 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-09-18 15:56:43.584 +05:30 [DBG] Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2024-09-18 15:56:43.581 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/lib/jquery/dist/jquery.min.js - 304 null text/javascript 26.1055ms
+2024-09-18 15:56:43.588 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-09-18 15:56:43.589 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 23.184ms
+2024-09-18 15:56:43.607 +05:30 [INF] The file /js/site.js was not modified
+2024-09-18 15:56:43.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 15:56:43.619 +05:30 [DBG] Handled. Status code: 304 File: /js/site.js
+2024-09-18 15:56:43.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 41.4361ms
+2024-09-18 15:56:43.641 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 29.9127ms
+2024-09-18 15:56:43.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2024-09-18 15:56:43.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 15:56:43.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2024-09-18 15:56:43.888 +05:30 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2024-09-18 15:56:43.896 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 22.5067ms
+2024-09-18 15:56:43.903 +05:30 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2024-09-18 15:56:43.905 +05:30 [DBG] Handled. Status code: 304 File: /lib/jquery-validation/dist/jquery.validate.min.js
+2024-09-18 15:56:43.908 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7068/_vs/browserLink - null null
+2024-09-18 15:56:43.925 +05:30 [DBG] Handled. Status code: 304 File: /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+2024-09-18 15:56:43.928 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 55.5746ms
+2024-09-18 15:56:43.939 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 304 null text/javascript 64.6952ms
+2024-09-18 15:56:44.382 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7068/_vs/browserLink - 200 null text/javascript; charset=UTF-8 473.8014ms
+2024-09-18 15:56:49.109 +05:30 [DBG] Connection id "0HN6NPHB78TKA" received FIN.
+2024-09-18 15:56:49.127 +05:30 [DBG] Connection id "0HN6NPHB78TKA" is closed. The last processed stream ID was 25.
+2024-09-18 15:56:49.127 +05:30 [DBG] The connection queue processing loop for 0HN6NPHB78TKA completed.
+2024-09-18 15:56:49.131 +05:30 [DBG] Connection id "0HN6NPHB78TKA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-18 15:56:49.153 +05:30 [DBG] Connection id "0HN6NPHB78TKA" stopped.
+2024-09-18 15:56:50.858 +05:30 [DBG] Config reload token fired. Checking for changes...
+2024-09-18 15:56:51.124 +05:30 [DBG] Config reload token fired. Checking for changes...
