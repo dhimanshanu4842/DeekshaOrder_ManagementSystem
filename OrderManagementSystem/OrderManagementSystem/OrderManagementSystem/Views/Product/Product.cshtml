@@ -1,0 +1,22 @@
+﻿@model IEnumerable<OrderManagementSystem.Models.Product>
+
+<h2>Product List</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProductName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+

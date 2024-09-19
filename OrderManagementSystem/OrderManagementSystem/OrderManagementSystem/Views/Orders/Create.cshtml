@@ -1,0 +1,39 @@
+﻿@model Order
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Select Product</h2>
+
+    <form asp-action="Create" method="post" class="p-4 border rounded shadow-sm bg-light">
+        <div class="form-group">
+            <label for="productDropdown" class="font-weight-bold">Select Product</label>
+            <select id="productDropdown" name="productId" class="form-control" required>
+            </select>
+        </div>
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary btn-lg">Submit Order</button>
+        </div>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            url: '/Product/GetAllProducts', 
+            type: 'GET',
+            success: function (data) {
+                $.each(data, function (i, product) {
+                    $('#productDropdown').append($('<option>', {
+                        value: product.productId,
+                        text: product.productName
+                    }));
+                });
+            },
+            error: function () {
+                alert('Error loading products');
+            }
+        });
+    })
+</script>
